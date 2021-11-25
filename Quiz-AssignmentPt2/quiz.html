@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" href="style.css">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+	<script src="quizscript.js"></script>
+</head>
+<body>
+	<form>
+		<label for= "name"<>1. What's 37 + 42?
+		<input type="text" id="textq1" name="textq1">
+		<br>
+		<label for= "date"<>2. What's 35 + 66?
+		<input type="text" id="textq2" name="textq2">
+		<br>
+		<p id = 'navy'> Check all of the following which are true 
+		<br>(1 point each):
+		</p>
+		<label for="q1"<>3. 2+2= 4
+		<input type="checkbox" id="q1" name= "q1">
+		<br>
+		<label for="q2"<>4. 3(2+2)= 12
+		<input type="checkbox" id="q2" name="q2">
+		<br>
+		<label for="q3"<>5. 2(3)+2= 10
+		<input type="checkbox" id="q3" name= "q3">
+		<br>
+		<p id= 'blue'>Which of the following is equal to 10?
+		</p>
+		<input type="radio" id="ans1" name="ans1">
+		<label for="ans1"<>10^0
+		<br>
+		<input type="radio" id="ans2" name="ans2">
+		<label for="ans2"<>1+4*2
+		<br>
+		<input type="radio" id="ans3" name="ans3">
+		<label for="ans3"<>2+2*4
+		<br>
+		<br>
+		<button type="button" onClick="DisplayScore()">Click when you are finished</button>
+		<button type="button" onClick="displayAnswers()">Click for correct answers</button>
+	</form>
+</body>
+</html>
